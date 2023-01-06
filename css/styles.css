@@ -336,13 +336,13 @@ body{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 24px;
+    padding-top: 72px;
 }
 
 .modal-close{
     position: absolute;
-    top: 0;
-    right: 0;
-    margin: 24px;
+    top: 24px;
+    right: 24px;
     width: 24px;
     height: 24px;
     text-align: center;
@@ -365,8 +365,6 @@ body{
 }
 
 .modal-dis{
-
-    margin-top: 48px;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -437,8 +435,8 @@ body{
     left: 16px;
     transform: translateY(-50%);
     display: block;
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 13px;
     fill: var(--nuvy-blue);
 }
 
@@ -684,9 +682,9 @@ body{
 
 .footer-block{
     display: flex;
-    align-items: baseline;
-    gap: 120px;
     margin-right: auto;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-logo-first {
@@ -740,7 +738,7 @@ body{
     background-color: var(--green);
 }
 
-.sub-form{
+.footer-form{
     display: flex;
     gap: 24px;
 }
@@ -802,6 +800,11 @@ body{
 
 /*#region ---Categories/Content--- */
 
+.categories{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .category-list {
     display: flex;
     flex-direction: row;
@@ -814,7 +817,8 @@ body{
 .content-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .content-link {
