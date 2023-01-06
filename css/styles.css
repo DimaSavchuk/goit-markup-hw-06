@@ -515,6 +515,13 @@ body{
     height: 56px;
 }
 
+.modal-textarea{
+    margin-bottom: 16px;
+}
+
+.policy-dis{
+    color: var(--iris);
+}
 
 
 
